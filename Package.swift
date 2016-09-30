@@ -4,7 +4,6 @@ let package = Package(
     name: "VaporMongoKitten",
     targets: [
         // Framework
-        Target(name: "VaporMongoKittenExample", dependencies: ["VaporMongoKitten"]),
         Target(name: "VaporMongoKitten", dependencies: ["Permissions"]),
         Target(name: "Permissions"),
         ],
