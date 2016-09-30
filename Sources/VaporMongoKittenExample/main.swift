@@ -9,6 +9,7 @@ import BCrypt
 let server = try! MongoKitten.Server(at: "127.0.0.1")
 let db = server["mydatabase"]
 let log = Logger()
+let drop = Droplet()
 
 let gridFS = try! GridFS(in: db)
 
