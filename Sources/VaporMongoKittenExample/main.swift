@@ -1,4 +1,4 @@
-import VaporMongoKitten
+/*import VaporMongoKitten
 import Permissions
 import LogKitten
 import Vapor
@@ -247,4 +247,4 @@ drop.get("users") { request in
     return (Array(try User.find())).makeArrayDocument()
 }
 
-drop.serve()
+drop.serve()*/
